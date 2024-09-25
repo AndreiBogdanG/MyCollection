@@ -13,7 +13,7 @@ const game1 = {
     title: 'Fazan',
     textEn: `Welcome to "Fazan," a delightful single-player word Java game that will challenge your vocabulary and strategic thinking! <br><br><br><i>
     This game can't be played directly, it must be first downloaded and then opened with <b>IntelliJ.</i></b>`,
-    textRo: `Bine ai venit la "Fazan", un joculeț foarte distractiv făcut în Java, ce îți va provoca gândirea strategică și vocabularul! <br><br><br><i>
+    textRo: `Bine ai venit la "Fazan", un joculeț foarte distractiv făcut în Java, ce îți va provoca gândirea strategică și vocabularul! <br><br><i>
     Acest joc nu poate fi rulat direct, trebuie întâi descărcat și abia apoi deschis cu <b>IntelliJ.</i></b>    `,
     link: 'https://github.com/AndreiBogdanG/FazanSinglePlayer',
     btnTextEn: 'Go to Github',
