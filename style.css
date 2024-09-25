@@ -16,6 +16,12 @@ body{
     margin-top: 30px;
 }
 
+p{
+    font-size: 16px;
+    padding: 10px;
+}
+
+
 #bigDiv{
     display: flex;
     flex-direction: column;
@@ -51,7 +57,8 @@ body{
     height: 200px;
     perspective: 1000px; 
     margin-bottom: 30px;
-    background-color: rgb(123, 120, 120);
+    /* background-color: rgb(123, 120, 120); */
+    background-color: rgb(227, 221, 221);
     padding: 20px;
     padding-bottom: 30px;
 }
@@ -100,7 +107,7 @@ button{
     background-color: rgb(197, 201, 166);
     box-shadow: -2px 2px 2px rgb(134, 132, 132);
     position: absolute;
-    bottom: 15px;
+    bottom: 5px;
     left: 50px;
 }
 
@@ -148,12 +155,10 @@ footer{
 
     button{
     left: 33%;
+    bottom: 15px;
     }
 
-    p{
-        font-size: 16px;
-        padding: 3px;
-    }
+    
 
     .smallFlag{
         width: 50px;
