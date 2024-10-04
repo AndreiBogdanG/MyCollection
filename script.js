@@ -66,8 +66,8 @@ const game5 = {
 const game6 = {
     image: 'questRaiders.jpg',
     title: 'Quest Raiders',
-    textEn: 'This is a small presentation website for my print-and-play games. <br><br>For the moment, the games are only available on the Etsy platform, but use this website to solve a short puzzle and earn a discount code. <br><br>Are you able to do it?',
-    textRo: 'Acesta e un mic site de prezentare pentru jocurile mele print-and-play. <br><br>Deocamdată, acestea sunt disponibile doar pe platforma Etsy, dar pe acest site poți rezolva un puzzle scurt pentru a câștiga un cod de reduceri. <br><br>Ce zici, te descurci?',
+    textEn: 'This is a small presentation website for my print-and-play games. <br><br>For the moment, the games are only available on the Etsy platform, but use this website to solve a short puzzle and earn a discount code.',
+    textRo: 'Acesta e un mic site de prezentare pentru jocurile mele print-and-play. <br><br>Deocamdată, acestea sunt disponibile doar pe platforma Etsy, dar pe acest site poți rezolva un puzzle scurt pentru a câștiga un cod de reduceri.',
     link: 'https://andreibogdang.github.io/QuestRaiders/',
     btnTextEn: 'Visit Site',
     btnTextRo: 'Vizitează site'
