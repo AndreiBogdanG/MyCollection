@@ -85,6 +85,19 @@ const game7 = {
     btnTextRo: 'Reîncarcă'
 };
 
+const game8 = {
+    image: 'quizGame.jpg',
+    title: 'Quiz Game',
+    textEn: 'Nice little quiz game which fetches some random questions from an online database. <br><br>It also uses a module which translates the questions and answers to Romanian. Or, at least, it tries... <br><br>Good Luck!',
+    textRo: `Un joculeț simplu de Trivia care ia întrebări aleatorii dintr-o bază de date online.
+    <br><br> De asemenea, folosește un modul care traduce întrebările și răspunsurile în română. Mă rog, mai mult încearcă... <br><br>Baftă! `,
+    link: 'https://andreibogdang.github.io/QuizGame/',
+    btnTextEn: `Play Game`,
+    btnTextRo: 'Joacă-te'
+};
+
+
+
 list.push(game1);
 list.push(game2);
 list.push(game3);
@@ -92,6 +105,7 @@ list.push(game4);
 list.push(game5);
 list.push(game6);
 list.push(game7);
+list.push(game8);
 
 
 let flipDivs = [];
