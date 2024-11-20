@@ -88,14 +88,24 @@ const game7 = {
 const game8 = {
     image: 'quizGame.jpg',
     title: 'Quiz Game',
-    textEn: 'Nice little quiz game which fetches some random questions from an online database. <br><br>It also uses a module which translates the questions and answers to Romanian. Or, at least, it tries... <br><br>Good Luck!',
+    textEn: 'Nice little quiz game which fetches some random questions from an online database. <br><br>It also uses a module which translates the questions and answers to Romanian. Or, at least, it tries... <br><br>Have fun!',
     textRo: `Un joculeț simplu de Trivia care ia întrebări aleatorii dintr-o bază de date online.
-    <br><br> De asemenea, folosește un modul care traduce întrebările și răspunsurile în română. Mă rog, mai mult încearcă... <br><br>Baftă! `,
+    <br><br> De asemenea, folosește un modul care traduce întrebările și răspunsurile în română. Mă rog, mai mult încearcă... <br><br>Distracție plăcută! `,
     link: 'https://andreibogdang.github.io/QuizGame/',
     btnTextEn: `Play Game`,
     btnTextRo: 'Joacă-te'
 };
 
+const game9 = {
+    image: 'tenzies.jpg',
+    title: 'Tenzies',
+    textEn: ' Simple yet fun Tenzies game: Roll ten dice, hold some of them and try to make all the dice show the same value in as few rolls as possible.<br><br>So easy, even Hipopotanța can play it.<br><br>Good Luck!',
+    textRo: ` Un joc simplu gen Bambilici. Dă cu zarurile și oprește câte vrei, dar încearcă să le faci pe toate egale din cât mai puține aruncări.
+    <br><br> Atât de simplu încât îl înțelege și Hipopotanța. <br><br>Baftă! `,
+    link: 'https://andreibogdang.github.io/Tenzies/',
+    btnTextEn: `Play Game`,
+    btnTextRo: 'Joacă-te'
+};
 
 
 list.push(game1);
@@ -106,6 +116,7 @@ list.push(game5);
 list.push(game6);
 list.push(game7);
 list.push(game8);
+list.push(game9);
 
 
 let flipDivs = [];
