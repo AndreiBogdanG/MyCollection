@@ -86,6 +86,17 @@ const game7 = {
 };
 
 const game8 = {
+    image: 'travel-journal.jpg',
+    title: 'Tenzies',
+    textEn: ` One of my first React projects - a travel blog. Didn't have time to update the locations, though, work in progress... <br><br>Just to show some of the <strike>places I've been</strike> things I've learned.<br><br>It was fun!`,
+    textRo: ` Unul dintre primele mele proiecte în React. N-am avut timp să trec toate locurile, poate reușesc în viitor.
+    <br><br> Doar cât să vedeți <strike>pe unde m-am plimbat</strike> ce am învățat. <br><br>A fost fain! `,
+    link: 'https://andreibogdang.github.io/Travel-Journal/',
+    btnTextEn: `Visit Site`,
+    btnTextRo: 'Vizitează'
+};
+
+const game9 = {
     image: 'quizGame.jpg',
     title: 'Quiz Game',
     textEn: 'Nice little quiz game which fetches some random questions from an online database. <br><br>It also uses a module which translates the questions and answers to Romanian. Or, at least, it tries... <br><br>Have fun!',
@@ -96,7 +107,8 @@ const game8 = {
     btnTextRo: 'Joacă-te'
 };
 
-const game9 = {
+
+const game10 = {
     image: 'tenzies.jpg',
     title: 'Tenzies',
     textEn: ' Simple yet fun Tenzies game: Roll ten dice, hold some of them and try to make all the dice show the same value in as few rolls as possible.<br><br>So easy, even Hipopotanța can play it.<br><br>Good Luck!',
@@ -108,6 +120,9 @@ const game9 = {
 };
 
 
+
+
+
 list.push(game1);
 list.push(game2);
 list.push(game3);
@@ -117,6 +132,8 @@ list.push(game6);
 list.push(game7);
 list.push(game8);
 list.push(game9);
+list.push(game10);
+
 
 
 let flipDivs = [];
