@@ -119,7 +119,16 @@ const game10 = {
     btnTextRo: 'Joacă-te'
 };
 
-
+const game11 = {
+    image: 'intoleranta.jpg',
+    title: 'Intoleranta',
+    textEn: `Help Hipopotanta satisfy her hunger without causing a tummy disaster! Guess the 4 dishes she can safely eat before her patience - or her belly - explodes.<br><br>Can you crack the menu in time?<br><br>Have fun!`,
+    textRo: `Ajut-o pe Hipopotanța să-și potolească foamea fără să-i faci rău la burtică! Ghicește cele 4 feluri pe care le poate mânca fără să pocnească.
+    <br><br> Oare îi poți ghici meniul la timp?<br><br>Distracție plăcută! `,
+    link: 'https://andreibogdang.github.io/Intoleranta/',
+    btnTextEn: `Play Game`,
+    btnTextRo: 'Joacă-te'
+}
 
 
 
@@ -133,10 +142,11 @@ list.push(game7);
 list.push(game8);
 list.push(game9);
 list.push(game10);
+list.push(game11);
 
 
 
-let flipDivs = [];
+
 let tempHTML = '';
 //create the cards:
 for (let i=0; i<list.length; i++){
@@ -176,6 +186,7 @@ for (let i=0; i<list.length; i++){
 
 
 // flip the cards:
+let flipDivs = [];
 for (let i=1; i<list.length+1; i++){
     flipDivs[i] = document.getElementById(`flipDiv${i}`);
     flipDivs[i].addEventListener('click', function() {
