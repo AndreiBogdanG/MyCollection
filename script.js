@@ -130,6 +130,17 @@ const game11 = {
     btnTextRo: 'Joacă-te'
 }
 
+const game12 = {
+    image: 'inkomode.jpg',
+    title: 'Ink.O.Mode',
+    textEn: `Just a little presentation site (work in progress) for my favorite tattoo artist in Brasov. <br><br>You can browse the models and - if you consider getting some ink - you have a contact page.<br><br>Fingers crossed!`,
+    textRo: `O mică pagină de prezentare (încă în lucru) pentru tatuatorul meu preferat din Brașov.
+    <br><br> Poți să frunzărești mai multe modele și - dacă te hătărăști să te tatuezi și tu - ai o pagină de contact.<br><br>Țin pumnii! `,
+    link: 'https://andreibogdang.github.io/inkomode/',
+    btnTextEn: `Visit Site`,
+    btnTextRo: 'Vizitează site'
+}
+
 
 
 list.push(game1);
@@ -143,6 +154,7 @@ list.push(game8);
 list.push(game9);
 list.push(game10);
 list.push(game11);
+list.push(game12);
 
 
 
