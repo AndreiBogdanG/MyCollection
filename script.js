@@ -12,25 +12,24 @@ const game1 = {
     image:'fazan.jpg',
     title: 'Fazan',
     textEn: `Welcome to "Fazan," a delightful single-player word Java game that will challenge your vocabulary and strategic thinking! <br><br><br><i>
-    This game can't be played directly, it must be first downloaded and then opened with <b>IntelliJ.</i></b>`,
+    This game can't be played directly, but you can see a demo on <b>Youtube</i></b>`,
     textRo: `Bine ai venit la "Fazan", un joculeț foarte distractiv făcut în Java, ce îți va provoca gândirea strategică și vocabularul! <br><br><i>
-    Acest joc nu poate fi rulat direct, trebuie întâi descărcat și abia apoi deschis cu <b>IntelliJ.</i></b>    `,
-    link: 'https://github.com/AndreiBogdanG/FazanSinglePlayer',
-    btnTextEn: 'Go to Github',
-    btnTextRo: 'Mergi la Github'
+    Acest joc nu poate fi rulat direct, dar poți vedea un demo pe <b>Youtube.</i></b>    `,
+    link: 'https://youtu.be/pXHFKJG21Fc',
+    btnTextEn: 'See on Youtube',
+    btnTextRo: 'Vezi pe Youtube'
 };
 
 const game2 = {
     image: 'heistCities.jpg',
     title: 'Heist Cities',
     textEn: `Embark on an adventure in "Heist Cities - Romania", a thrilling Java-based game where your ultimate goal is to turn 1000 euro into your first million! <br><br><i>
-    This game can't be played directly, it must be first downloaded and then opened with <b>IntelliJ.</i></b>`,
+    This game can't be played directly, but you can see a demo on <b>Youtube</i></b>`,
     textRo: `Înscrie-te în aventura "Heist Cities - Romania", un joculeț Java captivant în care scopul final este să transformi cei 1000 de euro în primul milion! <br><br><i>
-    Acest joc nu poate fi rulat direct, trebuie întâi descărcat și abia apoi deschis cu <b>IntelliJ.</i></b>
-    `,
-    link: 'https://github.com/AndreiBogdanG/HeistCities',
-    btnTextEn: 'Go to Github',
-    btnTextRo: 'Mergi la Github'
+    Acest joc nu poate fi rulat direct, dar poți vedea un demo pe <b>Youtube.</i></b>    `,
+    link: 'https://youtu.be/OJ3j5AMlhiE',
+    btnTextEn: 'See on Youtube',
+    btnTextRo: 'Vezi pe Youtube'
 };
 
 const game3 = {
@@ -157,8 +156,6 @@ list.push(game11);
 list.push(game12);
 
 
-
-
 let tempHTML = '';
 //create the cards:
 for (let i=0; i<list.length; i++){
@@ -184,16 +181,10 @@ for (let i=0; i<list.length; i++){
                         <a href="${list[i].link}"><button>${list[i].btnTextRo}</button></a>
                          <img class="smallFlag" src="library/smallRoFlag.jpg">
                     </div>
-                                
-                    
                 </div> 
-                
-                
-                
                 `;
  
  mainDiv.appendChild(flipCardDiv);
-
 }
 
 
