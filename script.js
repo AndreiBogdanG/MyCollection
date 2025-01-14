@@ -140,6 +140,16 @@ const game12 = {
     btnTextRo: 'Vizitează site'
 }
 
+const game13 = {
+    image: 'sequence.jpg',
+    title: 'Sequence',
+    textEn: `Sequence, one of my favorite boardgames. Use a computer as the host, then connect your phones using the code. Supporting only two players (for now, at least), it's a wonderful game for couples.<br><br>Show no mercy!`,
+    textRo: `Sequence, unul dintre jocurile mele favorite. Folosiți un computer drept gazdă, apoi conectați-vă telefoanele folosind codul. Momentan acceptă doar doi jucători, dar e minunat în cuplu.<br><br>La luptă! `,
+    link: 'https://sequence-ee5s.onrender.com/',
+    btnTextEn: `Play game`,
+    btnTextRo: 'Joacă-te'
+}
+
 
 
 list.push(game1);
@@ -154,6 +164,7 @@ list.push(game9);
 list.push(game10);
 list.push(game11);
 list.push(game12);
+list.push(game13);
 
 
 let tempHTML = '';
@@ -167,9 +178,10 @@ for (let i=0; i<list.length; i++){
  <img class="thumbnail" src="library/${list[i].image}" alt="Thumbnail">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                       <p>${list[i].textEn}
-                       </p>
+
+                       <p>${list[i].textEn}</p>
                        <br>
+                       
                         <a href="${list[i].link}"><button>${list[i].btnTextEn}</button></a>
                         <img class="smallFlag" src="library/smallEnFlag.jpg">
                     </div>
