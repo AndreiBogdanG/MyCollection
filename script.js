@@ -143,8 +143,8 @@ const game12 = {
 const game13 = {
     image: 'sequence.jpg',
     title: 'Sequence',
-    textEn: `Sequence, one of my favorite boardgames. Use a computer as the host, then connect your phones using the code. Supporting only two players (for now, at least), it's a wonderful game for couples.<br><br>Show no mercy!`,
-    textRo: `Sequence, unul dintre jocurile mele favorite. Folosiți un computer drept gazdă, apoi conectați-vă telefoanele folosind codul. Momentan acceptă doar doi jucători, dar e minunat în cuplu.<br><br>La luptă! `,
+    textEn: `Sequence, one of my favorite boardgames. Use a computer as the host, then connect your phones using the code. Supporting only two players (for now, at least), it's a wonderful game for couples.<br><br>Please wait, sometimes it takes some time to load!`,
+    textRo: `Sequence, unul dintre jocurile mele favorite. Folosiți un computer drept gazdă, apoi conectați-vă telefoanele folosind codul. Momentan acceptă doar doi jucători, dar e minunat în cuplu.<br><br>Te rog să aștepți să se încarce, uneori durează!`,
     link: 'https://sequence-ee5s.onrender.com/',
     btnTextEn: `Play game`,
     btnTextRo: 'Joacă-te'
